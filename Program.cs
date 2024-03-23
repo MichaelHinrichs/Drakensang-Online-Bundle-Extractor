@@ -1,4 +1,5 @@
-﻿using System.IO.Compression;
+//Written for Drakensang Online. https://store.steampowered.com/app/2067850/
+using System.IO.Compression;
 
 FileStream input = File.OpenRead(args[0]);
 BinaryReader br = new(input);
